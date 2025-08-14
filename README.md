@@ -5,8 +5,8 @@ It outputs:
 - Table of Contents (TOC)
 - Document sections
 - Section content  
-
 All outputs are available in both **JSONL** and **Excel** formats.
+
 ---
 
 ## 📌 Features
@@ -35,11 +35,15 @@ Install dependencies:
 ```bash
 pip install pdfplumber pandas
 
+---
+
 ## 🚀 Usage
 Place your usb_pd_specification.pdf file in the project directory.
 
 Run the script:
 python main.py
+
+---
 
 ## Outputs:
 usb_pd_toc.jsonl — Parsed Table of Contents
@@ -47,6 +51,7 @@ usb_pd_spec.jsonl — Parsed document sections
 usb_pd_sections_with_content.jsonl — Section content
 usb_pd_sections_with_content.xlsx — Excel version
 
+---
 ## 📄 Example TOC Output
 usb_pd_toc.jsonl
 {
@@ -59,10 +64,11 @@ usb_pd_toc.jsonl
     "parent_id": "1",
     "tags": []
 }
-
+---
 ##📊 Excel Output
 The .xlsx file contains:
 Section ID
 Title
 Page number
 Full section content
+---
