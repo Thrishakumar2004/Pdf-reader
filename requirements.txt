@@ -1,0 +1,9 @@
+# requirements.txt
+pdfplumber
+PyMuPDF
+pandas
+openpyxl
+jsonschema
+tqdm
+rich
+click
