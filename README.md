@@ -15,27 +15,26 @@ The system is designed to:
 
 ## Project Structure
 
-usb_pd_parser/
-│
-├── data/ # Sample PDF and output files
-│ ├── usb_pd_spec.pdf
-│ ├── usb_pd_spec.jsonl
-│ ├── usb_pd_toc.jsonl
-│ └── validation_report.xlsx
-│
-├── parser/ # Core parser modules
-│ ├── init.py
-│ ├── pdf_extractor.py # Extracts text from PDF
-│ ├── toc_parser.py # Parses Table of Contents
-│ ├── section_parser.py # Splits document into sections
-│ └── validator.py # Validates parsed sections vs TOC
-│
-├── tests/ # Unit tests
-│ └── test_pdf_extractor.py
-│
-├── main.py # Entry point for running the parser
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+usb_pd_parser/  │
+                ├── data/ # Sample PDF and output files
+                │ ├── usb_pd_spec.pdf
+                │ ├── usb_pd_spec.jsonl
+                │ ├── usb_pd_toc.jsonl
+                │ └── validation_report.xlsx
+                │
+                ├── parser/ # Core parser modules
+                │ ├── init.py
+                │ ├── pdf_extractor.py # Extracts text from PDF
+                │ ├── toc_parser.py # Parses Table of Contents
+                │ ├── section_parser.py # Splits document into sections
+                │ └── validator.py # Validates parsed sections vs TOC
+                │
+                ├── tests/ # Unit tests
+                │ └── test_pdf_extractor.py
+                │
+                ├── main.py # Entry point for running the parser
+                ├── requirements.txt # Python dependencies
+                └── README.md # Project documentation
 
 ---
 
